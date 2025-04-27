@@ -15,3 +15,16 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 $('#enviarporcorreo').click(function(){
     alert("El correo fue enviado correctamente!")
 })
+
+$('#ingredientes').dblclick(function(){
+    $(this).css('color', 'red')
+})
+
+$('#preparacion').dblclick(function(){
+    $(this).css('color', 'red')
+})
+
+$('h5').click(function(){
+    $('#cart_row').toggle(400)
+    $('#cart_row').toggle(400)
+})
